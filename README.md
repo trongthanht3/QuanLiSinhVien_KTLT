@@ -8,4 +8,5 @@ Kết quả làm được từ ngày 6/3/2020 đến ngày C
 
 *6/3/2020  
 -Xây dựng layout chương trình  
+<img>https://raw.githubusercontent.com/trongthanht3/QuanLiSinhVien_KTLT_W1-3/master/LayoutIMG/Layout.png</img>
 -Xây dựng class SinhVien với constructor có và không có tham số, các hàm set/get cho các thuộc tính, hàm toString cho NgaySinh và object SinhVien  
