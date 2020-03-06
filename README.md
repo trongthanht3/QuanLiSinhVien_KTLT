@@ -1,8 +1,8 @@
 # QuanLiSinhVien_KTLT_W1-3  
-Chương trình quản lí sinh viên, nội dung môn thực tập kĩ thuật lập trình tuần 1-3  
+**Chương trình quản lí sinh viên, nội dung môn thực tập kĩ thuật lập trình tuần 1-3  **
 
-Họ tên: Thân Trọng Thành  
-Lớp: KHMT_17  
+**__Họ tên: Thân Trọng Thành  
+Lớp: KHMT_17  __**
 
 Kết quả làm được từ ngày 6/3/2020 đến ngày C  
 
