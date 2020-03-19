@@ -19,3 +19,6 @@ Kết quả làm được từ ngày 6/3/2020 đến ngày C
   
 *19/3/2020*  
 -Kiểm tra lại các test case, lỗi chính tả, hoàn thiện báo cáo tuần 1-3 và nộp bài  
+
+
+--Le Quy Don Technical University--
