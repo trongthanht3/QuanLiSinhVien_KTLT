@@ -3,6 +3,8 @@
 #include <iostream>
 #include <ctime>
 #include <String>
+#include "ConstString.h"
+#include <fstream>
 
 using namespace std;
 
@@ -27,7 +29,8 @@ class Date
 		bool isLess(const Date&) const;
 		bool isLeapYear(int year);
 		const string& asString() const;
-		
+		void importData(fstream& dataInput, Date &temp);
+//        void input(string data);
 	protected:
 };
 

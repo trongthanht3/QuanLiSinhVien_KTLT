@@ -64,8 +64,11 @@ bool Date::setDate(int month, int day, int year)
 void Date::userInput()
 {
 	int day, month, year;
-	cin >> day >> month >> year;
-	setDate(month, day, year);
+	do {
+        cin >> day >> month >> year;
+        if (!setDate(month, day, year))
+            cout << ConstString::nhapsai;
+	} while (!setDate(month, day, year));
 }
 
 void Date::print() const 
@@ -96,6 +99,29 @@ const string& Date::asString() const
 	return str;
 }
 
+void Date::importData(fstream &dataInput, Date &temp)
+{
+    cout << "vitri0: " << dataInput.tellp();
+    dataInput >> day;
+//    dataInput.clear();
+//    dataInput.seekg(0, ios_base::cur);
+    cout << "vitrim: " << dataInput.tellg();
+    dataInput >> month;
+//    dataInput.clear();
+//    dataInput.seekg(1, ios::cur);
+    cout << "m: " << month;
+    dataInput >> year;
+    cout << "y: " << year;
+}
+
+//void Date::input(string data)
+//{
+//    istringstream instream(data);
+//    int a;
+//    instream >> a;
+//    cout << "fff: " << a;
+//
+//}
 
 
 

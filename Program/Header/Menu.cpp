@@ -14,8 +14,6 @@ const string Menu::baotri = "Tinh nang dang duoc nang cap!\nVui long quay lai sa
 
 void Menu::hienThi()
 {
-	SinhVien sinhVienTemp;			//khoi tao object temp
-	
 	cout << "\n****************************************************" << endl
 		 << "Chuong trinh quan li sinh vien.					   " << endl
 		 << "	1. Them ho so								   " << endl
@@ -33,13 +31,18 @@ void Menu::hienThi()
 	} while (choiceMenu < 1 || choiceMenu >6);
 	
 	switch (choiceMenu) {
-		case 1:
-			sinhVienTemp.ThemHoSo();
-			break;
-		case 2:
-			cout << "\nIn danh sach: " << endl;
-			cout << baotri;
-			break;
+		case 1: {
+            SinhVien sinhVienTemp;            //khoi tao object temp
+            sinhVienTemp.ThemHoSo();
+            sinhVienTemp.exportData();
+            break;
+        }
+        case 2: {
+            InDanhSach DanhSach;
+            DanhSach.importData();
+            DanhSach.printData();
+            break;
+        }
 		case 3:
 			cout << "\nSap xep: " << endl;
 			sapXep();
@@ -96,6 +99,7 @@ int Menu::chonKhoa()
 				break;
 		}
 	} while (!check);
+	return 0;
 }
 
 void Menu::sapXep()
@@ -140,6 +144,7 @@ int Menu::algoSapXep()
 				break;
 		}
 	} while (algoType < 1 || algoType > 4);
+	return 0;
 }
 
 void Menu::timKiem()
@@ -174,6 +179,7 @@ int Menu::algoTimKiem()
 				break;
 		}
 	} while (algoType < 1 || algoType > 2);
+	return 0;
 }
 
 void Menu::thongKe()

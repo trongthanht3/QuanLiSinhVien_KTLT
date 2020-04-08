@@ -3,7 +3,11 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <fstream>
 #include "Date.h"
+#include "ConstString.h"
+#include "iomanip"
+#include <exception>
 
 using namespace std;
 
@@ -32,12 +36,16 @@ class SinhVien
 		
 		void setNgaySinh(int Ngay, int Thang, int Nam);
 		Date getNgaySinh();
-		
+        string toString_NgaySinh();
+
 		void setDiemTB(float DiemTB);
 		float getDiemTB();
 		
 		string toString_SinhVien();
-		
+        void toScreen_SinhVien();
+		string chuanHoaString();
+		void exportData();
+		void importData(fstream& dataInput, SinhVien &temp);
 		friend void alo();
 	protected:
 };

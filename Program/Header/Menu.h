@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include "SinhVien.h"
+#include "InDanhSach.h"
 
 class Menu
 {

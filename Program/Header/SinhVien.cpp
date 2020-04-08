@@ -45,11 +45,16 @@ void SinhVien::ThemHoSo()
 	cin.ignore();
 	cout << "Ho va ten: ";
 	getline(cin, HoTen);
+	chuanHoaString();
 	cout << "Ngay sinh (ngay/thang/nam): ";
 	NgaySinh.userInput();
 	cin.ignore();
 	cout << "Diem trung binh tich luy: ";
 	cin >> DiemTB;
+	while (DiemTB<0 || DiemTB >10) {
+	    cout << ConstString::nhapsai;
+	    cin >> DiemTB;
+	}
 }
 
 void SinhVien::setMaLop(string MaLop)
@@ -88,6 +93,11 @@ Date SinhVien::getNgaySinh()
 	return NgaySinh;
 }
 
+string SinhVien::toString_NgaySinh()
+{
+    return NgaySinh.asString();
+}
+
 void SinhVien::setDiemTB(float DiemTB)
 {
 	this->DiemTB = DiemTB;
@@ -104,6 +114,96 @@ string SinhVien::toString_SinhVien()
 
 	return _SinhVien.str();
 }
+
+void SinhVien::toScreen_SinhVien()
+{
+    setw(12);
+    cout << MaLop << "|";
+    setw(12);
+    cout << MaSV << "|";
+    setw(24);
+    cout << HoTen << "|";
+    setw(12);
+    cout << NgaySinh.asString() << "|";
+    setw(6);
+    setprecision(2);
+    cout << DiemTB;
+}
+
+string SinhVien::chuanHoaString()
+{
+    string ten = this->HoTen;
+    int i=1, n=ten.length();
+    ten[0] = toupper(ten[0]);
+    do {
+        if (ten[i] == ' ')
+            ten[i+1] = toupper(ten[i+1]);
+        i++;
+    } while (i<n);
+    this->HoTen = ten;
+    return ten;
+}
+
+void SinhVien::exportData()
+{
+    fstream out;
+    out.open("data.txt", ios::out | ios::app);
+    cout << "open?: " << out.is_open();
+    out.seekg(0, ios::end);
+    if (out.tellg() == 0) {
+        out.clear();
+        out << toString_SinhVien();
+    }
+    else {
+        out.clear();
+        out << "\n" << toString_SinhVien();
+    }
+    cout << toString_SinhVien();
+//    out << toString_SinhVien();
+    out.close();
+}
+
+void SinhVien::importData(fstream &dataInput, SinhVien &temp)
+{
+
+    getline(dataInput, MaLop, '|');
+    if (MaLop == "\n")
+        return;
+    string buffer;
+    istringstream s(buffer);
+    dataInput.clear();
+    getline(dataInput, buffer, '|');
+//    cout << "b: " << buffer;
+    MaSV = stoi(buffer);
+    getline(dataInput, HoTen, '|');
+    int d, m, y;
+    dataInput >> d;
+    dataInput.ignore(1);
+    dataInput >> m;
+    dataInput.ignore(1);
+    dataInput >> y;
+    dataInput.ignore(1);
+    NgaySinh.setDate(m, d, y);
+    dataInput >> DiemTB;
+//    cout << toString_SinhVien();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
