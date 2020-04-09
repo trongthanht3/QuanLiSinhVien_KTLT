@@ -35,17 +35,19 @@ void InDanhSach::printData()
 void InDanhSach::printListStudent() {
     cout << titleM2 << endl;
     string s;
+//    cout << DanhSach[0].getMaSV();
     for (int i = 0; i < DanhSach.size(); ++i) {
         s = "|" + centerString(DanhSach[i].getMaLop(), 12) + "|"
-            + centerString(to_string(DanhSach[i].getMaSV()), 18) +
+            + centerStringint(DanhSach[i].getMaSV(), 18) +
             "|" + centerString(DanhSach[i].getHoTen(), 24) + "|" +
             centerString(DanhSach[i].toString_NgaySinh(), 14) + "|"
-            + centerString(DanhSach[i].getDiemTB(), 10) + "|\n" ;
+            + centerStringfloat(DanhSach[i].getDiemTB(), 10) + "|\n" ;
         printM2.push_back(midLineM2);
         printM2.push_back(s);
         cout << s;
     }
-    printM2.push_back(endLineM2);
+    cout << endLineM2;
+//    printM2.push_back(endLineM2);
 //    pressEnterInM2(keyMoveSelectPrintListStudents(index, printM2));
 }
 
@@ -60,28 +62,76 @@ string InDanhSach::centerString(string s, int space) {
         string1 += " ";
     }
     string1 += s;
-    for (int i=0; i<size; i++) {
-        string1 += " ";
+    if (length%2 == 0) {
+        for (int i = 0; i < size; i++) {
+            string1 += " ";
+        }
+    }
+    else {
+        for (int i = 0; i < size+1; i++) {
+            string1 += " ";
+        }
     }
     return string1;
 }
 
-string InDanhSach::centerString(int s, int space) {
+string InDanhSach::centerStringint(int input, int space) {
     int length = 0;
+    int s = input;
+//    cout << input;
     while (s > 0) {
-        s /= 10;
+        s = s / 10;
+        length++;
     }
+//    cout << length;
+//    cout << s;
     stringstream ss;
-    ss << s;
+    ss << input;
+    string temp;
+    ss >> temp;
     int size = (space - length) / 2;
     string string1;
     for (int i=0; i<size; i++) {
         string1 += " ";
     }
-    ss >> string1;
-    for (int i=0; i<size; i++) {
-        string1 += " ";
+    string1 += temp;
+    if (length%2 == 0) {
+        for (int i = 0; i < size; i++) {
+            string1 += " ";
+        }
     }
+    else {
+        for (int i = 0; i < size+1; i++) {
+            string1 += " ";
+        }
+    }
+//    cout << string1;
     return string1;
 }
 
+string InDanhSach::centerStringfloat(float input, int space) {
+    ostringstream strInput;
+    strInput.precision(2);
+    strInput << fixed << DanhSach[0].getDiemTB();
+    string temp = strInput.str();
+    int length = temp.length();
+
+    int size = (space - length) / 2;
+    string string1;
+    for (int i=0; i<size; i++) {
+        string1 += " ";
+    }
+    string1 += temp;
+    if (length%2 == 0) {
+        for (int i = 0; i < size; i++) {
+            string1 += " ";
+        }
+    }
+    else {
+        for (int i = 0; i < size+1; i++) {
+            string1 += " ";
+        }
+    }
+
+    return string1;
+}

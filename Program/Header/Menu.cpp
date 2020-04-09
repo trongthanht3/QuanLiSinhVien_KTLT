@@ -40,7 +40,7 @@ void Menu::hienThi()
         case 2: {
             InDanhSach DanhSach;
             DanhSach.importData();
-            DanhSach.printData();
+            DanhSach.printListStudent();
             break;
         }
 		case 3:

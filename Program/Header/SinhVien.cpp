@@ -165,7 +165,11 @@ void SinhVien::exportData()
 
 void SinhVien::importData(fstream &dataInput, SinhVien &temp)
 {
-
+    if (dataInput.peek() == '\n') {
+        dataInput.clear();
+        dataInput.ignore(1);
+    }
+    dataInput.clear();
     getline(dataInput, MaLop, '|');
     if (MaLop == "\n")
         return;
