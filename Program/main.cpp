@@ -3,7 +3,7 @@
 #include "Header/SinhVien.h"
 #include "Header/Menu.h"
 #include "Header/InDanhSach.h"
-//https://github.com/trongthanht3/QuanLiSinhVien_KTLT_W1-3
+//https://github.com/trongthanht3/QuanLiSinhVien_KTLT
 
 using namespace std;
 

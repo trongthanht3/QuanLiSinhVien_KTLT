@@ -6,24 +6,8 @@
 
 #IncludeRegexTransform: 
 
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.cpp
-ConstString.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
-
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
 string
--
-
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.cpp
-Date.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.h
-iostream
--
-ctime
--
-sstream
--
-iomanip
 -
 
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.h
@@ -38,10 +22,6 @@ D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
 fstream
 -
 
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.cpp
-InDanhSach.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
-
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
 SinhVien.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
@@ -49,10 +29,6 @@ string
 -
 vector
 -
-
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.cpp
-Menu.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.h
 
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.h
 iostream
@@ -63,10 +39,6 @@ SinhVien.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
 InDanhSach.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
-
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.cpp
-SinhVien.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
 
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
 iostream
