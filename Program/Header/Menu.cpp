@@ -35,12 +35,14 @@ void Menu::hienThi()
             SinhVien sinhVienTemp;            //khoi tao object temp
             sinhVienTemp.ThemHoSo();
             sinhVienTemp.exportData();
+//            cin.get();
             break;
         }
         case 2: {
             InDanhSach DanhSach;
             DanhSach.importData();
             DanhSach.printListStudent();
+//            cin.get();
             break;
         }
 		case 3:

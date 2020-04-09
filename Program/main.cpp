@@ -11,8 +11,8 @@ int main(int argc, char** argv)
 {
     Menu a;
     a.hienThi();
-//    cout << 'a';
-
+    cout << endl;
+    system("PAUSE");
 
     return 0;
 }

@@ -59,80 +59,80 @@ include CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\main.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\main.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuanLiSinhVien.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp > CMakeFiles\QuanLiSinhVien.dir\main.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp > CMakeFiles\QuanLiSinhVien.dir\main.cpp.i
 
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuanLiSinhVien.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp -o CMakeFiles\QuanLiSinhVien.dir\main.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp -o CMakeFiles\QuanLiSinhVien.dir\main.cpp.s
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj: ../Header/Date.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.i
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.s
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj: ../Header/Menu.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.i
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.s
 
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj: ../Header/SinhVien.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.i
 
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.s
 
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj: ../Header/ConstString.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.i
 
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.s
 
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj: ../Header/InDanhSach.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.i
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp > CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.i
 
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.s
+	C:\PROGRA~2\Dev-Cpp\MinGW64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp -o CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.s
 
 # Object files for target QuanLiSinhVien
 QuanLiSinhVien_OBJECTS = \

@@ -14,11 +14,21 @@
     <list default="true" id="27802b2d-abcc-46a9-84be-64ebc7cb6514" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/Header/InDanhSach.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/InDanhSach.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/Header/InDanhSach.h" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/InDanhSach.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/Header/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/Menu.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/Header/SinhVien.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/SinhVien.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/QuanLiSinhVien.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/QuanLiSinhVien.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +73,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Program/Header" />
@@ -106,7 +117,7 @@
       <workItem from="1586279811988" duration="4546000" />
       <workItem from="1586326373098" duration="2215000" />
       <workItem from="1586363022502" duration="6874000" />
-      <workItem from="1586400290064" duration="3435000" />
+      <workItem from="1586400290064" duration="4382000" />
     </task>
     <servers />
   </component>
@@ -114,30 +125,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586370028175">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586404663080">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586370028175" />
-    <state x="512" y="144" width="547" height="611" key="FileChooserDialogImpl" timestamp="1586181670655">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586404663080" />
+    <state x="503" y="174" key="EnvironmentVariablesDialog" timestamp="1586404578271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="512" y="144" width="547" height="611" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586181670655" />
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1586403722916">
+    <state x="503" y="174" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1586404578271" />
+    <state x="512" y="144" width="547" height="611" key="FileChooserDialogImpl" timestamp="1586404564384">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586403722916" />
-    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1586403722916">
+    <state x="512" y="144" width="547" height="611" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586404564384" />
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom" timestamp="1586404294757">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586403722916" />
-    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1586403722916">
+    <state width="1493" height="247" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586404294757" />
+    <state width="1493" height="247" key="GridCell.Tab.0.center" timestamp="1586404294756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586403722916" />
-    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1586403722916">
+    <state width="1493" height="247" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586404294756" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left" timestamp="1586404294756">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586403722916" />
+    <state width="1493" height="247" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586404294756" />
+    <state width="1493" height="247" key="GridCell.Tab.0.right" timestamp="1586404294757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="247" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586404294757" />
     <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1586401788196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -154,14 +169,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586401788196" />
-    <state x="269" y="0" width="1226" height="824" key="SettingsEditor" timestamp="1586181682051">
+    <state x="269" y="0" width="1226" height="824" key="SettingsEditor" timestamp="1586404675609">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="269" y="0" width="1226" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586181682051" />
+    <state x="269" y="0" width="1226" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586404675609" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586400290244">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586400290244" />
+    <state x="663" y="147" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1586404585222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="663" y="147" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1536.824@0.0.1536.824" timestamp="1586404585222" />
     <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585759661662">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

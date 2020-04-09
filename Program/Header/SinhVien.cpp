@@ -189,6 +189,7 @@ void SinhVien::importData(fstream &dataInput, SinhVien &temp)
     dataInput.ignore(1);
     NgaySinh.setDate(m, d, y);
     dataInput >> DiemTB;
+//    cout << "Da nhap sinh vien vao ho so." << endl;
 //    cout << toString_SinhVien();
 }
 

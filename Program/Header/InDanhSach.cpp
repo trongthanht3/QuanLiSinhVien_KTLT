@@ -14,7 +14,7 @@ void InDanhSach::importData()
     fstream dataInput;
     dataInput.open("data.txt", ios::in | ios::out);
     if (dataInput.peek() == EOF) {
-        cout << "empty file\n";
+        cout << "Ho so rong!\n";
         return;
     }
     while (!dataInput.eof()) {
