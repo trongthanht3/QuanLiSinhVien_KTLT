@@ -19,6 +19,18 @@ Kết quả làm được từ ngày 6/3/2020 đến ngày C
   
 *19/3/2020*  
 -Kiểm tra lại các test case, lỗi chính tả, hoàn thiện báo cáo tuần 1-3 và nộp bài  
-
-
+  
+*27/3/2020*  
+-Tự động chỉnh sửa chính tả khi nhập họ tên sinh viên  
+-Bổ sung kiểm tra tính hợp lệ của ngày sinh để ép người dùng nhập tới khi đúng  
+-Kiểm tra tính hợp lệ của điểm trung bình tích lũy, điểm trung bình tích lũy >=0 và <=10 (đã làm trong nội dung 1)  
+  
+*4/4/2020*  
+-Sử dụng thư viện vector để quản lí dữ liệu được nhập vào (không sử dụng linked list vì một số thuật toán sắp xếp và tìm kiếm gần như không thể chạy được và rất kém hiệu quả)  
+-Hoàn thành nhập/xuất dữ liệu, tính năng InDanhSach (chưa có sắp xếp)  
+  
+*9/4/2020*  
+-Kiểm tra lại lỗi, chính tả, hoàn thành báo cáo  
+-Trình bày lại format khi in ra của InDanhSach  
+  
 --Le Quy Don Technical University--
