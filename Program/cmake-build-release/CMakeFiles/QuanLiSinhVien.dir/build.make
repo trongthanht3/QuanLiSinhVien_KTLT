@@ -45,7 +45,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug
+CMAKE_BINARY_DIR = D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release
 
 # Include any dependencies generated for this target.
 include CMakeFiles/QuanLiSinhVien.dir/depend.make
@@ -58,7 +58,7 @@ include CMakeFiles/QuanLiSinhVien.dir/flags.make
 
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\main.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\main.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/main.cpp.i: cmake_force
@@ -71,7 +71,7 @@ CMakeFiles/QuanLiSinhVien.dir/main.cpp.s: cmake_force
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj: ../Header/Date.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\Date.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Date.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.i: cmake_force
@@ -84,7 +84,7 @@ CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.s: cmake_force
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj: ../Header/Menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\Menu.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\Menu.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.i: cmake_force
@@ -97,7 +97,7 @@ CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.s: cmake_force
 
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj: ../Header/SinhVien.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\SinhVien.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\SinhVien.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.i: cmake_force
@@ -110,7 +110,7 @@ CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.s: cmake_force
 
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj: ../Header/ConstString.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\ConstString.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\ConstString.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.i: cmake_force
@@ -123,7 +123,7 @@ CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.s: cmake_force
 
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj: CMakeFiles/QuanLiSinhVien.dir/flags.make
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj: ../Header/InDanhSach.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\QuanLiSinhVien.dir\Header\InDanhSach.cpp.obj -c D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header\InDanhSach.cpp
 
 CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.i: cmake_force
@@ -156,7 +156,7 @@ QuanLiSinhVien.exe: CMakeFiles/QuanLiSinhVien.dir/build.make
 QuanLiSinhVien.exe: CMakeFiles/QuanLiSinhVien.dir/linklibs.rsp
 QuanLiSinhVien.exe: CMakeFiles/QuanLiSinhVien.dir/objects1.rsp
 QuanLiSinhVien.exe: CMakeFiles/QuanLiSinhVien.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable QuanLiSinhVien.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable QuanLiSinhVien.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\QuanLiSinhVien.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +169,6 @@ CMakeFiles/QuanLiSinhVien.dir/clean:
 .PHONY : CMakeFiles/QuanLiSinhVien.dir/clean
 
 CMakeFiles/QuanLiSinhVien.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-debug\CMakeFiles\QuanLiSinhVien.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\cmake-build-release\CMakeFiles\QuanLiSinhVien.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/QuanLiSinhVien.dir/depend
 
