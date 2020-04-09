@@ -11,25 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27802b2d-abcc-46a9-84be-64ebc7cb6514" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/Header/InDanhSach.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/InDanhSach.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/Header/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/Menu.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/Header/SinhVien.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/SinhVien.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/QuanLiSinhVien.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/QuanLiSinhVien.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="27802b2d-abcc-46a9-84be-64ebc7cb6514" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zwh9zGfxJzmUeRjdsmA8f3OUub" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -117,12 +102,15 @@
       <workItem from="1586279811988" duration="4546000" />
       <workItem from="1586326373098" duration="2215000" />
       <workItem from="1586363022502" duration="6874000" />
-      <workItem from="1586400290064" duration="4382000" />
+      <workItem from="1586400290064" duration="4680000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586404663080">
