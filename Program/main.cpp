@@ -14,6 +14,7 @@ int main(int argc, char** argv)
     Menu startMenu;
     startMenu.HienThi();
     //some code here...
-
+    cin.ignore();
+    cin.get();  //just want to pause
     return 0;
 }
