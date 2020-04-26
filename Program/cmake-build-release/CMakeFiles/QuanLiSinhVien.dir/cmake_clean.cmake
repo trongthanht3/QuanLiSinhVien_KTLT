@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
   "CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
   "CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
+  "CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.obj"
   "CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
   "CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
   "QuanLiSinhVien.exe"

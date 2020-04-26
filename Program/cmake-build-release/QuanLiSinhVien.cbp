@@ -104,6 +104,12 @@
 		<Unit filename="D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.h">
 			<Option target="QuanLiSinhVien"/>
 		</Unit>
+		<Unit filename="D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.cpp">
+			<Option target="QuanLiSinhVien"/>
+		</Unit>
+		<Unit filename="D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.h">
+			<Option target="QuanLiSinhVien"/>
+		</Unit>
 		<Unit filename="D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.cpp">
 			<Option target="QuanLiSinhVien"/>
 		</Unit>

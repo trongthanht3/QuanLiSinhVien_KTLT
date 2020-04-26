@@ -47,7 +47,7 @@ void InDanhSach::printListStudent() {
         cout << s;
     }
     cout << endLineM2;
-//    printM2.push_back(endLineM2);
+    printM2.push_back(endLineM2);
 //    pressEnterInM2(keyMoveSelectPrintListStudents(index, printM2));
 }
 
@@ -112,7 +112,7 @@ string InDanhSach::centerStringint(int input, int space) {
 string InDanhSach::centerStringfloat(float input, int space) {
     ostringstream strInput;
     strInput.precision(2);
-    strInput << fixed << DanhSach[0].getDiemTB();
+    strInput << fixed << input;
     string temp = strInput.str();
     int length = temp.length();
 
@@ -134,4 +134,34 @@ string InDanhSach::centerStringfloat(float input, int space) {
     }
 
     return string1;
+}
+
+vector<SinhVien> InDanhSach::getData()
+{
+    return DanhSach;
+}
+
+void InDanhSach::ask()
+{
+    cout << "Ban co muon sap xep truoc khi in? (y/n): ";
+    char ans;
+    try {
+        cin >> ans;
+    }
+    catch (exception e) {
+        ask();
+    }
+    if (ans == 'y') {
+        importData();
+//        system("CLS");
+        SapXep sapXep(DanhSach);
+        sapXep.ChonKhoa();
+        printListStudent();
+    }
+    else {
+//        system("CLS");
+        importData();
+        printListStudent();
+    }
+
 }

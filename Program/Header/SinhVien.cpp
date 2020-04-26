@@ -83,6 +83,11 @@ string SinhVien::getHoTen()
 {
 	return HoTen;
 }
+string SinhVien::getLastHoTen()
+{
+    int i = HoTen.find_last_of(' ');
+    return HoTen.substr(i+1);
+}
 
 void SinhVien::setNgaySinh(int Ngay, int Thang, int Nam)
 {
@@ -148,7 +153,7 @@ void SinhVien::exportData()
 {
     fstream out;
     out.open("data.txt", ios::out | ios::app);
-    cout << "open?: " << out.is_open();
+//    cout << "open?: " << out.is_open();
     out.seekg(0, ios::end);
     if (out.tellg() == 0) {
         out.clear();
@@ -158,7 +163,7 @@ void SinhVien::exportData()
         out.clear();
         out << "\n" << toString_SinhVien();
     }
-    cout << toString_SinhVien();
+//    cout << toString_SinhVien();
 //    out << toString_SinhVien();
     out.close();
 }

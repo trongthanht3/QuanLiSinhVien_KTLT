@@ -12,37 +12,54 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27802b2d-abcc-46a9-84be-64ebc7cb6514" name="Default Changelist" comment="">
+    <list default="true" id="27802b2d-abcc-46a9-84be-64ebc7cb6514" name="Default Changelist" comment="Update sort algorithm">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/InDanhSach.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/InDanhSach.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/InDanhSach.h" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/InDanhSach.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/Menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/Menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/Menu.h" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/Menu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/SapXep.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/SapXep.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/SapXep.h" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/SapXep.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/SinhVien.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/SinhVien.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Header/SinhVien.h" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Header/SinhVien.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/Makefile.win" beforeDir="false" afterPath="$PROJECT_DIR$/Program/Makefile.win" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/QuanLiSinhVien.layout" beforeDir="false" afterPath="$PROJECT_DIR$/Program/QuanLiSinhVien.layout" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/linklibs.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/linklibs.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program/cmake-build-debug/QuanLiSinhVien.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-debug/QuanLiSinhVien.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/QuanLiSinhVien.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/QuanLiSinhVien.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/cmake-build-release/QuanLiSinhVien.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Program/cmake-build-release/QuanLiSinhVien.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Program/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Program/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +95,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="trongthanht3 &lt;trongthanht3@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Zwh9zGfxJzmUeRjdsmA8f3OUub" />
@@ -93,15 +115,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Program/Header" />
-    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Program" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C/C++" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Document" />
+      <recent name="D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program" />
+      <recent name="D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program" />
       <recent name="D:\tailieu\thuctapKTLT\QuanLiSinhVien_KTLT_W1-3\Program\Header" />
     </key>
@@ -137,20 +160,49 @@
       <workItem from="1586400290064" duration="4837000" />
       <workItem from="1586405371569" duration="41000" />
       <workItem from="1586410441405" duration="873000" />
+      <workItem from="1586843192589" duration="6236000" />
+      <workItem from="1586938777251" duration="3043000" />
+      <workItem from="1586970221850" duration="4348000" />
+      <workItem from="1587197698460" duration="1235000" />
+      <workItem from="1587228170965" duration="600000" />
+      <workItem from="1587270453476" duration="4096000" />
+      <workItem from="1587289996645" duration="618000" />
+      <workItem from="1587447597363" duration="5871000" />
+      <workItem from="1587456150269" duration="1707000" />
+      <workItem from="1587527581001" duration="9842000" />
+      <workItem from="1587821770816" duration="14489000" />
+      <workItem from="1587872187939" duration="2317000" />
+      <workItem from="1587917995624" duration="851000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Update sort algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update sort algorithm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586410509198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1586410509198" />
+    <state x="393" y="7" width="921" height="810" key="CommitChangelistDialog2" timestamp="1587918702925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="7" width="921" height="810" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587918702925" />
     <state x="503" y="174" key="EnvironmentVariablesDialog" timestamp="1586404578271">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -159,68 +211,61 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="512" y="144" width="547" height="611" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586404564384" />
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom" timestamp="1586405130678">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom" timestamp="1587918906685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586405130678" />
-    <state width="1493" height="260" key="GridCell.Tab.0.center" timestamp="1586405130678">
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587918906685" />
+    <state width="1493" height="185" key="GridCell.Tab.0.center" timestamp="1587918906685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586405130678" />
-    <state width="1493" height="260" key="GridCell.Tab.0.left" timestamp="1586405130678">
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587918906685" />
+    <state width="1493" height="185" key="GridCell.Tab.0.left" timestamp="1587918906685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586405130678" />
-    <state width="1493" height="260" key="GridCell.Tab.0.right" timestamp="1586405130678">
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587918906685" />
+    <state width="1493" height="185" key="GridCell.Tab.0.right" timestamp="1587918906685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586405130678" />
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom" timestamp="1586405130679">
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587918906685" />
+    <state width="1493" height="259" key="GridCell.Tab.1.bottom" timestamp="1587873657918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586405130679" />
-    <state width="1493" height="260" key="GridCell.Tab.1.center" timestamp="1586405130679">
+    <state width="1493" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587873657918" />
+    <state width="1493" height="259" key="GridCell.Tab.1.center" timestamp="1587873657918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586405130679" />
-    <state width="1493" height="260" key="GridCell.Tab.1.left" timestamp="1586405130679">
+    <state width="1493" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587873657918" />
+    <state width="1493" height="259" key="GridCell.Tab.1.left" timestamp="1587873657918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586405130679" />
-    <state width="1493" height="260" key="GridCell.Tab.1.right" timestamp="1586405130679">
+    <state width="1493" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587873657918" />
+    <state width="1493" height="259" key="GridCell.Tab.1.right" timestamp="1587873657918">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586405130679" />
-    <state x="269" y="0" width="1226" height="824" key="SettingsEditor" timestamp="1586410549260">
+    <state width="1493" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587873657918" />
+    <state x="269" y="0" width="1226" height="824" key="SettingsEditor" timestamp="1587449314111">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="269" y="0" width="1226" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586410549260" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586410444615">
+    <state x="269" y="0" width="1226" height="824" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587449314111" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587918017864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586410444615" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587918017864" />
     <state x="663" y="147" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1586404585222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="663" y="147" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1536.824@0.0.1536.824" timestamp="1586404585222" />
-    <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1585759661662">
+    <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1587873436220">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1585759661662" />
+    <state x="330" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1587873436220" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1586005941419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1586005941419" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Program/main.cpp</url>
-          <line>13</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="744" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587539752127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="744" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587539752127" />
   </component>
 </project>

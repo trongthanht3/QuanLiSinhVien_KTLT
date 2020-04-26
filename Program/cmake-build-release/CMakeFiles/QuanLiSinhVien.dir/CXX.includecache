@@ -6,24 +6,8 @@
 
 #IncludeRegexTransform: 
 
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.cpp
-ConstString.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
-
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
 string
--
-
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.cpp
-Date.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.h
-iostream
--
-ctime
--
-sstream
--
-iomanip
 -
 
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.h
@@ -38,13 +22,11 @@ D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
 fstream
 -
 
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.cpp
-InDanhSach.h
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
-
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
 SinhVien.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
+SapXep.h
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.h
 string
 -
 vector
@@ -63,8 +45,22 @@ SinhVien.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
 InDanhSach.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
+SapXep.h
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.h
+ConstString.h
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
 
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.cpp
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.h
+iostream
+-
+string
+-
+vector
+-
+ConstString.h
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.h
+InDanhSach.h
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
 SinhVien.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.h
 
@@ -97,4 +93,8 @@ Header/Menu.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.h
 Header/InDanhSach.h
 D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.h
+Header/SapXep.h
+D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.h
+vector
+-
 

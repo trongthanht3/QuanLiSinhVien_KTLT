@@ -11,16 +11,15 @@ SapXep::SapXep()
     DanhSach = temp.getData();
 }
 
-SapXep::SapXep(vector<SinhVien> DanhSach)
+SapXep::SapXep(vector<SinhVien> &_DanhSach)
 {
-
+    DanhSach = _DanhSach;
 }
 
 void SapXep::ChonKhoa()
 {
     int keyType;
     bool check = false;
-
     cout << "\nChon loai khoa: " << endl
          << "1. Ma sinh vien"	 << endl
          << "2. Ho ten"			 << endl
@@ -29,32 +28,16 @@ void SapXep::ChonKhoa()
     cout << "Chon: ";
     do {
         cin >> keyType;
-
-        switch (keyType) {
-            case 1: {
-                chonThuatToan();
-                check = true;
-                break;
-            }
-            case 2: {
-                check = true;
-                break;
-            }
-            case 3:
-                break;
-            case 4:
-                check = true;
-//                return keyType;
-                break;
-            default:
-                cout << ConstString::nhapsai;
-                break;
-        }
+        if (keyType<1 || keyType>4)
+            cout << ConstString::nhapsai;
+        else
+            check = true;
     } while (!check);
+    chonThuatToan(keyType);
 //    return 0;
 }
 
-void SapXep::chonThuatToan()
+void SapXep::chonThuatToan(int keyType)
 {
     int algoType;
     bool check = false;
@@ -69,23 +52,24 @@ void SapXep::chonThuatToan()
         switch (algoType) {
             case 1: {
                 cout << "Selection sort dang chay!" << endl;
-                selectionSortMaSV();
+                selectionSort(DanhSach, keyType);
                 check = true;
                 break;
             }
             case 2: {
                 cout << "Insert sort dang chay!" << endl;
-                insertionSortMaSV();
+                insertionSort(DanhSach, keyType);
                 check = true;
                 break;
             }
             case 3:
                 cout << "Quick sort dang chay!" << endl;
-
+                quickSort(DanhSach, 0, DanhSach.size()-1, keyType);
+                check = true;
                 break;
             case 4:
                 cout << "Merge sort dang chay!" << endl;
-                mergeSortMaSV(DanhSach, 0, DanhSach.size()-1);
+                mergeSort(DanhSach, 0, DanhSach.size()-1, keyType);
                 check = true;
                 break;
             default:
@@ -103,52 +87,153 @@ void SapXep::exportSortedData()
     }
 }
 
-void SapXep::selectionSortMaSV()
+void SapXep::selectionSort(vector<SinhVien> &_DanhSach, int keyType)
 {
-    for (int i=0; i<DanhSach.size()-1; i++) {
-        int min = DanhSach[i].getMaSV();
-        for (int j=i+1; j<DanhSach.size(); j++) {
-            if (DanhSach[j].getMaSV() < min) {
-                SinhVien tempS = DanhSach[i];
-                DanhSach[i] = DanhSach[j];
-                DanhSach[j] = tempS;
+    for (int i=0; i<_DanhSach.size()-1; i++) {
+        int min = i;
+//        cout << _DanhSach[i].getLastHoTen();
+        for (int j = i + 1; j < _DanhSach.size(); j++) {
+            switch (keyType) {
+                case 1: {
+                    if (_DanhSach[j].getMaSV() < _DanhSach[min].getMaSV())
+                        swap(_DanhSach[i], _DanhSach[j]);
+                    break;
+                }
+                case 2: {
+                    if (_DanhSach[j].getLastHoTen() < _DanhSach[min].getLastHoTen())
+                        swap(_DanhSach[i], _DanhSach[j]);
+                    break;
+                }
+                case 3: {
+                    if (_DanhSach[j].getNgaySinh().isLess(_DanhSach[min].getNgaySinh()))
+                        swap(_DanhSach[i], _DanhSach[j]);
+                    break;
+                }
+                case 4: {
+                    if (_DanhSach[j].getDiemTB() < _DanhSach[min].getDiemTB())
+                        swap(_DanhSach[i], _DanhSach[j]);
+                    break;
+                }
+                default:
+                    break;
             }
         }
     }
     exportSortedData();
 }
 
-void SapXep::insertionSortMaSV()
+void SapXep::insertionSort(vector<SinhVien> &_DanhSach, int keyType)
 {
-    for (int i=1; i<DanhSach.size(); i++) {
-        int temp = DanhSach[i].getMaSV();
-        SinhVien tempS = DanhSach[i];
+    for (int i=1; i<_DanhSach.size(); i++) {
+        SinhVien tempS = _DanhSach[i];
         int j = i - 1;
-        while (j>=0 && temp<DanhSach[j].getMaSV()) {
-            DanhSach[j+1] = DanhSach[j];
-            j--;
+        switch (keyType) {
+            case 1: {
+                while (j >= 0 && tempS.getMaSV() < _DanhSach[j].getMaSV()) {
+                    _DanhSach[j + 1] = _DanhSach[j];
+                    j--;
+                }
+                break;
+            }
+            case 2: {
+                while (j >= 0 && tempS.getLastHoTen() < _DanhSach[j].getLastHoTen()) {
+                    _DanhSach[j + 1] = _DanhSach[j];
+                    j--;
+                }
+                break;
+            }
+            case 3: {
+                while (j >= 0 && tempS.getNgaySinh().isLess(_DanhSach[j].getNgaySinh())) {
+                    _DanhSach[j + 1] = _DanhSach[j];
+                    j--;
+                }
+                break;
+            }
+            case 4: {
+                while (j >= 0 && tempS.getDiemTB() < _DanhSach[j].getDiemTB()) {
+                    _DanhSach[j + 1] = _DanhSach[j];
+                    j--;
+                }
+                break;
+            }
+            default:
+                break;
         }
-        DanhSach[j+1] = tempS;
+        _DanhSach[j+1] = tempS;
     }
     exportSortedData();
 }
 
-void SapXep::mergeMaSV(vector<SinhVien> &_DanhSach, int left, int right)
+int SapXep::quickSortPartition(vector<SinhVien> &_DanhSach, int left, int right, int keyType)
 {
-    if (left < right) {
-        int middle = (right + left) / 2;
+    int pivot = right;      //pick pivot as most right element
+    int i = left - 1;       //run index to find where to put pivot
 
-        mergeSortMaSV(_DanhSach, left, middle);
-        mergeSortMaSV(_DanhSach, middle+1, right);
-
-        mergeMaSV(_DanhSach, left, middle);
+    for (int j=left; j<right; j++) {         //not run to [right]
+        switch (keyType) {
+            case 1: {
+                if (_DanhSach[j].getMaSV() < _DanhSach[pivot].getMaSV()) {
+                    i++;
+                    swap(_DanhSach[j], _DanhSach[i]);
+                }
+                break;
+            }
+            case 2: {
+                if (_DanhSach[j].getLastHoTen() < _DanhSach[pivot].getLastHoTen()) {
+                    i++;
+                    swap(_DanhSach[j], _DanhSach[i]);
+                }
+                break;
+            }
+            case 3: {
+                if (_DanhSach[j].getNgaySinh().isLess(_DanhSach[pivot].getNgaySinh())) {
+                    i++;
+                    swap(_DanhSach[j], _DanhSach[i]);
+                }
+                break;
+            }
+            case 4: {
+                if (_DanhSach[j].getDiemTB() < _DanhSach[pivot].getDiemTB()) {
+                    i++;
+                    swap(_DanhSach[j], _DanhSach[i]);
+                }
+                break;
+            }
+            default:
+                break;
+        }
     }
+    swap(_DanhSach[pivot], _DanhSach[i+1]);
+    return i+1;             //return pivot point to divine array
+}
+void SapXep::quickSort(vector<SinhVien> &_DanhSach, int left, int right, int keyType)
+{
+    if (left < right) {         //exit condition
+        int pivot = quickSortPartition(_DanhSach, left, right, keyType);     //get pivot after partition array
+        //'cuz pivot point is sorted, so we dont run to it
+        quickSort(_DanhSach, left, pivot-1, keyType);        //left array before pivot
+        quickSort(_DanhSach, pivot+1, right, keyType);        //right array after pivot
+    }
+    exportSortedData();
 }
 
-void SapXep::mergeSortMaSV(vector<SinhVien> &_DanhSach, int left, int right)
+void SapXep::mergeSort(vector<SinhVien> &_DanhSach, int left, int right, int keyType)
+{
+    if (left < right) {
+        int middle = (right+left) / 2;
+
+        mergeSort(_DanhSach, left, middle, keyType);
+        mergeSort(_DanhSach, middle+1, right, keyType);
+
+        merge(_DanhSach, left, right, keyType);
+    }
+    exportSortedData();
+}
+
+void SapXep::merge(vector<SinhVien> &_DanhSach, int left, int right, int keyType)
 {
     int i, j, k;
-    int middle = (right + left) / 2;
+    int middle = (right+left) / 2;
     int leftSize = middle - left + 1;
     int rightSize = right - middle;
 
@@ -166,13 +251,53 @@ void SapXep::mergeSortMaSV(vector<SinhVien> &_DanhSach, int left, int right)
     k = left;
 
     while (i<leftSize && j<rightSize) {
-        if (leftTemp[i].getMaSV() <= rightTemp[j].getMaSV()) {
-            _DanhSach[k] = leftTemp[i];
-            i++;
-        }
-        else {
-            _DanhSach[k] = rightTemp[j];
-            j++;
+        switch (keyType) {
+            case 1: {
+                if (leftTemp[i].getMaSV() <= rightTemp[j].getMaSV()) {
+                    _DanhSach[k] = leftTemp[i];
+                    i++;
+                }
+                else {
+                    _DanhSach[k] = rightTemp[j];
+                    j++;
+                }
+                break;
+            }
+            case 2: {
+                if (leftTemp[i].getLastHoTen() <= rightTemp[j].getLastHoTen()) {
+                    _DanhSach[k] = leftTemp[i];
+                    i++;
+                }
+                else {
+                    _DanhSach[k] = rightTemp[j];
+                    j++;
+                }
+                break;
+            }
+            case 3: {
+                if (leftTemp[i].getNgaySinh().isLess(rightTemp[j].getNgaySinh())) {
+                    _DanhSach[k] = leftTemp[i];
+                    i++;
+                }
+                else {
+                    _DanhSach[k] = rightTemp[j];
+                    j++;
+                }
+                break;
+            }
+            case 4: {
+                if (leftTemp[i].getDiemTB() <= rightTemp[j].getDiemTB()) {
+                    _DanhSach[k] = leftTemp[i];
+                    i++;
+                }
+                else {
+                    _DanhSach[k] = rightTemp[j];
+                    j++;
+                }
+                break;
+            }
+            default:
+                break;
         }
         k++;
     }
@@ -187,3 +312,20 @@ void SapXep::mergeSortMaSV(vector<SinhVien> &_DanhSach, int left, int right)
         k++;
     }
 }
+//
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//

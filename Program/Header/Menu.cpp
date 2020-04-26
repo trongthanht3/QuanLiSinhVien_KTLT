@@ -9,10 +9,9 @@ Menu::~Menu()
 }
 
 //const string use so much
-const string Menu::nhapsai = "Loi! Nhap lai: ";
-const string Menu::baotri = "Tinh nang dang duoc nang cap!\nVui long quay lai sau";
 
-void Menu::hienThi()
+
+void Menu::HienThi()
 {
 	cout << "\n****************************************************" << endl
 		 << "Chuong trinh quan li sinh vien.					   " << endl
@@ -27,7 +26,7 @@ void Menu::hienThi()
 	do {
 		cin >> choiceMenu;
 		if (choiceMenu < 1 || choiceMenu >6)
-			cout << nhapsai;
+			cout << ConstString::nhapsai;
 	} while (choiceMenu < 1 || choiceMenu >6);
 	
 	switch (choiceMenu) {
@@ -40,15 +39,15 @@ void Menu::hienThi()
         }
         case 2: {
             InDanhSach DanhSach;
-            DanhSach.importData();
-            DanhSach.printListStudent();
+            DanhSach.ask();
 //            cin.get();
             break;
         }
-		case 3:
-			cout << "\nSap xep: " << endl;
-			sapXep();
-			break;
+		case 3: {
+            SapXep menuSapXep;
+            menuSapXep.ChonKhoa();
+            break;
+        }
 		case 4:
 			cout << "\nTim kiem: " << endl;
 			timKiem();
@@ -61,7 +60,8 @@ void Menu::hienThi()
 			thoat();
 			break;
 		default:
-			cout << nhapsai;
+			cout << ConstString::nhapsai;
+			break;
 	}
 }
 
@@ -97,55 +97,10 @@ int Menu::chonKhoa()
 //					cout << nhapsai;
 //				break;
 			default:
-				cout << nhapsai;
+				cout << ConstString::nhapsai;
 				break;
 		}
 	} while (!check);
-	return 0;
-}
-
-void Menu::sapXep()
-{
-	int keyType = chonKhoa();
-	cout << "\nDa chon loai: " << keyType << endl;
-	int algoType = algoSapXep();
-	// chung ta se goi thuat toan o day voi tham so keyType va algoType
-	cout << baotri << endl;
-}
-int Menu::algoSapXep()
-{
-	int algoType;				// co the dung choiceMenu de tiet kiem bo nho nhung se de nham lan
-	cout << "\nChon thuat toan sap xep: " << endl
-		 << "1. Selection sort" 		  << endl
-		 << "2. Insert sort"			  << endl
-		 << "3. Quick sort"				  << endl
-		 << "4. Merge sort"				  << endl
-		 << "Chon: ";
-	
-	do {
-		cin >> algoType;
-		switch (algoType) {
-			case 1:
-				cout << "Selection sort dang chay!" << endl;
-				return algoType;
-				break;
-			case2:
-				cout << "Insert sort dang chay!" << endl;
-				return algoType;
-				break;
-			case 3:
-				cout << "Quick sort dang chay!" << endl;
-				return algoType;
-				break;
-			case 4:
-				cout << "Merge sort dang chay!" << endl;
-				return algoType;
-				break;
-			default:
-				cout << nhapsai;
-				break;
-		}
-	} while (algoType < 1 || algoType > 4);
 	return 0;
 }
 
@@ -155,7 +110,7 @@ void Menu::timKiem()
 	cout << "\nDa chon loai: " << keyType << endl;
 	int algoType = algoTimKiem();
 	//dat thuat toan o day
-	cout << baotri << endl;
+	cout << ConstString::baotri << endl;
 }
 int Menu::algoTimKiem()
 {
@@ -177,7 +132,7 @@ int Menu::algoTimKiem()
 				return algoType;
 				break;
 			default:
-				cout << nhapsai;
+				cout << ConstString::nhapsai;
 				break;
 		}
 	} while (algoType < 1 || algoType > 2);
@@ -196,9 +151,9 @@ void Menu::thongKe()
 		switch (choice) {
 			case 1:
 			case 2:
-				cout << baotri << endl;
+				cout << ConstString::baotri << endl;
 			default:
-				cout << nhapsai;
+				cout << ConstString::nhapsai;
 		}
 	} while (choice < 1 || choice > 2);
 }

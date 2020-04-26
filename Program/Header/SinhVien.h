@@ -33,6 +33,7 @@ class SinhVien
 		int getMaSV();
 		void setHoTen(string HoTen);
 		string getHoTen();
+		string getLastHoTen();
 		
 		void setNgaySinh(int Ngay, int Thang, int Nam);
 		Date getNgaySinh();

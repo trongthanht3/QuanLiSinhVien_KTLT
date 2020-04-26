@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
   "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
   "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.obj"
   "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
   "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/main.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
   )

@@ -230,6 +230,33 @@ Header/Menu.cpp.s:
 	$(MAKE) -f CMakeFiles\QuanLiSinhVien.dir\build.make CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.s
 .PHONY : Header/Menu.cpp.s
 
+Header/SapXep.obj: Header/SapXep.cpp.obj
+
+.PHONY : Header/SapXep.obj
+
+# target to build an object file
+Header/SapXep.cpp.obj:
+	$(MAKE) -f CMakeFiles\QuanLiSinhVien.dir\build.make CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.obj
+.PHONY : Header/SapXep.cpp.obj
+
+Header/SapXep.i: Header/SapXep.cpp.i
+
+.PHONY : Header/SapXep.i
+
+# target to preprocess a source file
+Header/SapXep.cpp.i:
+	$(MAKE) -f CMakeFiles\QuanLiSinhVien.dir\build.make CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.i
+.PHONY : Header/SapXep.cpp.i
+
+Header/SapXep.s: Header/SapXep.cpp.s
+
+.PHONY : Header/SapXep.s
+
+# target to generate assembly for a file
+Header/SapXep.cpp.s:
+	$(MAKE) -f CMakeFiles\QuanLiSinhVien.dir\build.make CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.s
+.PHONY : Header/SapXep.cpp.s
+
 Header/SinhVien.obj: Header/SinhVien.cpp.obj
 
 .PHONY : Header/SinhVien.obj
@@ -305,6 +332,9 @@ help:
 	@echo ... Header/Menu.obj
 	@echo ... Header/Menu.i
 	@echo ... Header/Menu.s
+	@echo ... Header/SapXep.obj
+	@echo ... Header/SapXep.i
+	@echo ... Header/SapXep.s
 	@echo ... Header/SinhVien.obj
 	@echo ... Header/SinhVien.i
 	@echo ... Header/SinhVien.s

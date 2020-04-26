@@ -6,13 +6,14 @@
 #define QUANLISINHVIEN_INDANHSACH_H
 
 #include "SinhVien.h"
+#include "SapXep.h"
 #include <string>
 #include <vector>
 
 class InDanhSach {
     private:
         vector<SinhVien> DanhSach;
-        string titleM2 = " _____________________________________________________________________________\n"
+        string titleM2 = " __________________________________________________________________________________\n"
                      "|            |                  |                        |              |          |\n"
                      "|   Ma Lop   |   Ma sinh vien   |       Ho va ten        |   Ngay sinh  |   DTBTL  |\n"
                      "| ___________|__________________|________________________|______________|__________|",
@@ -28,7 +29,8 @@ class InDanhSach {
         string centerStringint(int input, int space);
         string centerStringfloat(float input, int space);
         void printListStudent();
-
+        vector<SinhVien> getData();
+        void ask();
 };
 
 

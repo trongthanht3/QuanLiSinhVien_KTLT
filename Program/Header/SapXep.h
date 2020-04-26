@@ -15,18 +15,20 @@
 using namespace std;
 
 class SapXep {
-    private:
+    private:;
         vector<SinhVien> DanhSach;
     public:
-        SapXep(vector<SinhVien> DanhSach);
-        void ChonKhoa();
-        void chonThuatToan();
-        void exportSortedData();
         SapXep();
-        void selectionSortMaSV();
-        void insertionSortMaSV();
-        void mergeMaSV(vector<SinhVien> &_DanhSach, int left, int right);
-        void mergeSortMaSV(vector<SinhVien> &_DanhSach, int left, int right);
+        SapXep(vector<SinhVien> &_DanhSach);
+        void ChonKhoa();
+        void chonThuatToan(int keyType);
+        void exportSortedData();
+        void selectionSort(vector<SinhVien> &_DanhSach, int keyType);
+        void insertionSort(vector<SinhVien> &_DanhSach, int keyType);
+        int quickSortPartition(vector<SinhVien> &_DanhSach, int left, int right, int keyType);
+        void quickSort(vector<SinhVien> &_DanhSach, int left, int right, int keyType);
+        void merge(vector<SinhVien> &_DanhSach, int left, int right, int keyType);
+        void mergeSort(vector<SinhVien> &_DanhSach, int left, int right, int keyType);
 };
 
 
