@@ -33,4 +33,19 @@ Kết quả làm được từ ngày 6/3/2020 đến ngày C
 -Kiểm tra lại lỗi, chính tả, hoàn thành báo cáo  
 -Trình bày lại format khi in ra của InDanhSach  
   
+*15/4/2020*  
+-Bổ sung các thuật toán sắp xếp: selection, insert, merge, quick  
+-Hoàn thiện menu riêng cho SapXep  
+  
+*20/4/2020*  
+-Tinh giản code trong SapXep.cpp  
+-Kiểm tra các case và lỗi trong thuật toán  
+-Trình bày lại format khi in ra của InDanhSach  
+  
+*26/4/2020*  
+-Kiểm tra lỗi, sửa chính tả, viết báo cáo  
+  
+*1/5/2020*  
+-Kiểm tra lỗi, hoàn thiện, nộp bài  
+  
 --Le Quy Don Technical University--
