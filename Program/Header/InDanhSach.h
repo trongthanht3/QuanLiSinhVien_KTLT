@@ -23,14 +23,17 @@ class InDanhSach {
     public:
         static int n;
         InDanhSach();
+        InDanhSach(vector<SinhVien> &_DanhSach);
         void importData();
         void printData();
         string centerString(string s, int space);
         string centerStringint(int input, int space);
         string centerStringfloat(float input, int space);
         void printListStudent();
-        vector<SinhVien> getData();
         void ask();
+        void askSearch(vector<SinhVien> &_DanhSach, int keyType);
+        void setData(vector<SinhVien> _DanhSach);
+        vector<SinhVien> getData();
 };
 
 

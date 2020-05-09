@@ -93,6 +93,10 @@ void SinhVien::setNgaySinh(int Ngay, int Thang, int Nam)
 {
 	NgaySinh.setDate(Thang, Ngay, Nam);
 }
+void SinhVien::setNgaySinh(Date _NgaySinh)
+{
+    NgaySinh = _NgaySinh;
+}
 Date SinhVien::getNgaySinh()
 {
 	return NgaySinh;

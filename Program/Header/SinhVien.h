@@ -36,6 +36,7 @@ class SinhVien
 		string getLastHoTen();
 		
 		void setNgaySinh(int Ngay, int Thang, int Nam);
+		void setNgaySinh(Date _NgaySinh);
 		Date getNgaySinh();
         string toString_NgaySinh();
 

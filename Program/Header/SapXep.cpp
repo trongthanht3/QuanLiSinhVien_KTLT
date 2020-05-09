@@ -62,16 +62,18 @@ void SapXep::chonThuatToan(int keyType)
                 check = true;
                 break;
             }
-            case 3:
+            case 3: {
                 cout << "Quick sort dang chay!" << endl;
-                quickSort(DanhSach, 0, DanhSach.size()-1, keyType);
+                quickSort(DanhSach, 0, DanhSach.size() - 1, keyType);
                 check = true;
                 break;
-            case 4:
+            }
+            case 4: {
                 cout << "Merge sort dang chay!" << endl;
-                mergeSort(DanhSach, 0, DanhSach.size()-1, keyType);
+                mergeSort(DanhSach, 0, DanhSach.size() - 1, keyType);
                 check = true;
                 break;
+            }
             default:
                 cout << ConstString::nhapsai;
                 break;
@@ -111,6 +113,11 @@ void SapXep::selectionSort(vector<SinhVien> &_DanhSach, int keyType)
                 }
                 case 4: {
                     if (_DanhSach[j].getDiemTB() < _DanhSach[min].getDiemTB())
+                        swap(_DanhSach[i], _DanhSach[j]);
+                    break;
+                }
+                case 5: {
+                    if (_DanhSach[j].getMaLop() < _DanhSach[min].getMaLop())
                         swap(_DanhSach[i], _DanhSach[j]);
                     break;
                 }
@@ -156,6 +163,13 @@ void SapXep::insertionSort(vector<SinhVien> &_DanhSach, int keyType)
                 }
                 break;
             }
+            case 5: {
+                while (j >= 0 && tempS.getMaLop() < _DanhSach[j].getMaLop()) {
+                    _DanhSach[j + 1] = _DanhSach[j];
+                    j--;
+                }
+                break;
+            }
             default:
                 break;
         }
@@ -194,6 +208,13 @@ int SapXep::quickSortPartition(vector<SinhVien> &_DanhSach, int left, int right,
             }
             case 4: {
                 if (_DanhSach[j].getDiemTB() < _DanhSach[pivot].getDiemTB()) {
+                    i++;
+                    swap(_DanhSach[j], _DanhSach[i]);
+                }
+                break;
+            }
+            case 5: {
+                if (_DanhSach[j].getMaLop() < _DanhSach[pivot].getMaLop()) {
                     i++;
                     swap(_DanhSach[j], _DanhSach[i]);
                 }
@@ -287,6 +308,17 @@ void SapXep::merge(vector<SinhVien> &_DanhSach, int left, int right, int keyType
             }
             case 4: {
                 if (leftTemp[i].getDiemTB() <= rightTemp[j].getDiemTB()) {
+                    _DanhSach[k] = leftTemp[i];
+                    i++;
+                }
+                else {
+                    _DanhSach[k] = rightTemp[j];
+                    j++;
+                }
+                break;
+            }
+            case 5: {
+                if (leftTemp[i].getMaLop() <= rightTemp[j].getMaLop()) {
                     _DanhSach[k] = leftTemp[i];
                     i++;
                 }

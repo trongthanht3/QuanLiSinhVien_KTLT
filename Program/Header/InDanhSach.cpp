@@ -8,6 +8,11 @@ InDanhSach::InDanhSach()
 {
 }
 
+InDanhSach::InDanhSach(vector<SinhVien> &_DanhSach)
+{
+    DanhSach = _DanhSach;
+}
+
 void InDanhSach::importData()
 {
     SinhVien temp;
@@ -163,5 +168,15 @@ void InDanhSach::ask()
         importData();
         printListStudent();
     }
+}
 
+void InDanhSach::askSearch(vector<SinhVien> &_DanhSach, int keyType)
+{
+    SapXep sortFirst(_DanhSach);
+    sortFirst.selectionSort(_DanhSach, keyType);
+}
+
+void InDanhSach::setData(vector<SinhVien> _DanhSach)
+{
+    DanhSach = _DanhSach;
 }
