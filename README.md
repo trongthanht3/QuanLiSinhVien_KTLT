@@ -48,4 +48,22 @@ Kết quả làm được từ ngày 6/3/2020 đến ngày C
 *1/5/2020*  
 -Kiểm tra lỗi, hoàn thiện, nộp bài  
   
+*5/5/2020*  
+-Bổ sung các thuật toán tìm kiếm: sequence search, binary search  
+-Hoàn thiện menu riêng cho TimKiem  
+  
+*10/5/2020*  
+-Kiểm tra các case và lỗi trong thuật toán  
+-Viết comment cho thuật toán tìm kiếm  
+-Đánh giá hiệu quả của thuật toán:  
+	+Sequence search mang lại hiệu quả cao hơn trong việc tìm kiếm nhiều phần tử, binary search sẽ tốn nhiều thời gian và tài nguyên hơn để thực hiện việc trên  
+	+Bù lại, binary search sẽ cho tốc độ tìm kiếm tốt nhất trên một danh sách đã sắp xếp với thời gian tìm kiếm là Olog(n)
+  
+*14/5/2020*  
+-Kiểm tra lỗi, sửa chính tả, viết báo cáo  
+  
+*16/5/2020*  
+-Kiểm tra lỗi, hoàn thiện, nộp bài  
+  
+  
 --Le Quy Don Technical University--
