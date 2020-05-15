@@ -6,6 +6,9 @@
 
 TimKiem::TimKiem()
 {
+    InDanhSach temp;
+    temp.importData();
+    DanhSach = temp.getData();
 }
 
 TimKiem::TimKiem(vector<SinhVien> _DanhSach)

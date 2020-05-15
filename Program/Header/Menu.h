@@ -5,6 +5,7 @@
 #include "SinhVien.h"
 #include "InDanhSach.h"
 #include "SapXep.h"
+#include "TimKiem.h"
 #include "ConstString.h"
 
 class Menu
@@ -15,11 +16,6 @@ class Menu
 		Menu();
 		~Menu();
 		void HienThi();
-
-    void timKiem();				//se duoc tach ra class rieng
-		int algoTimKiem();
-		
-		int chonKhoa();		//return ve key-type cho cac thuat toan sapxep/timkiem
 		void thongKe();
 		
 		void thoat();

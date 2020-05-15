@@ -1,3 +1,3 @@
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/edit_cache.dir
-D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-release/CMakeFiles/rebuild_cache.dir
+E:/javWorkspace/QLSV11/Program/cmake-build-release/CMakeFiles/QuanLiSinhVien.dir
+E:/javWorkspace/QLSV11/Program/cmake-build-release/CMakeFiles/edit_cache.dir
+E:/javWorkspace/QLSV11/Program/cmake-build-release/CMakeFiles/rebuild_cache.dir

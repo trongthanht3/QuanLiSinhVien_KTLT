@@ -12,11 +12,7 @@ using namespace std;
 
 int main(int argc, char** argv)
 {
-//    Menu c;
-//    c.HienThi();
-    InDanhSach a;
-    a.importData();
-    TimKiem b(a.getData());
-    b.ChonKhoa();
+    Menu a;
+    a.HienThi();
     return 0;
 }
