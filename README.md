@@ -1,5 +1,5 @@
 # QuanLiSinhVien_KTLT
-**Chương trình quản lí sinh viên, nội dung môn thực tập kĩ thuật lập trình
+**Chương trình quản lí sinh viên, nội dung môn thực tập kĩ thuật lập trình**
 
 ***Họ tên: Thân Trọng Thành  
 Lớp: KHMT_17***    
