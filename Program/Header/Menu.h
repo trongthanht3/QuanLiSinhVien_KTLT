@@ -6,7 +6,9 @@
 #include "InDanhSach.h"
 #include "SapXep.h"
 #include "TimKiem.h"
+#include "ThongKe.h"
 #include "ConstString.h"
+#include "Tools.h"
 
 class Menu
 {
@@ -15,9 +17,7 @@ class Menu
 	public:
 		Menu();
 		~Menu();
-		void HienThi();
-		void thongKe();
-		
+		bool HienThi();
 		void thoat();
 	protected:
 };

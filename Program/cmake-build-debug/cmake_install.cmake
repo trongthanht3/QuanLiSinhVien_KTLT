@@ -1,4 +1,4 @@
-# Install script for directory: E:/javWorkspace/QLSV11/Program
+# Install script for directory: D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/javWorkspace/QLSV11/Program/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

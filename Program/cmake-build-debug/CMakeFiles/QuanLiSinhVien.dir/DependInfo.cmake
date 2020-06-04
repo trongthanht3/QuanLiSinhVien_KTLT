@@ -4,14 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/javWorkspace/QLSV11/Program/Header/ConstString.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/Header/Date.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/Header/InDanhSach.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/Header/Menu.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/Header/SapXep.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/Header/SinhVien.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/Header/TimKiem.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/TimKiem.cpp.obj"
-  "E:/javWorkspace/QLSV11/Program/main.cpp" "E:/javWorkspace/QLSV11/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ConstString.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/ConstString.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Date.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Date.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/InDanhSach.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/InDanhSach.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/LopHocPhan.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/LopHocPhan.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Menu.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Menu.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SapXep.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SapXep.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/SinhVien.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/SinhVien.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/ThongKe.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/ThongKe.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/TimKiem.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/TimKiem.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/Header/Tools.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/Header/Tools.cpp.obj"
+  "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/main.cpp" "D:/tailieu/thuctapKTLT/QuanLiSinhVien_KTLT_W1-3/Program/cmake-build-debug/CMakeFiles/QuanLiSinhVien.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -16,49 +16,63 @@ TimKiem::TimKiem(vector<SinhVien> _DanhSach)
     DanhSach = _DanhSach;
 }
 
-void TimKiem::ChonKhoa()
+bool TimKiem::ChonKhoa()
 {
+    system("CLS");
     int keyType;
     bool check = false;
     cout << "\nChon loai khoa: " << endl
-         << "1. Ma sinh vien"	 << endl
-         << "2. Ho ten"			 << endl
-         << "3. Ngay sinh"		 << endl
-         << "4. Diem trung binh" << endl
-         << "5. Ma lop"          << endl;
+         << "       1. Ma sinh vien"	 << endl
+         << "       2. Ho ten"			 << endl
+         << "       3. Ngay sinh"		 << endl
+         << "       4. Diem trung binh"  << endl
+         << "       5. Ma lop"           << endl
+         << "       6. Quay lai"         << endl;
     cout << "Chon: ";
     do {
         cin >> keyType;
-        if (keyType<1 || keyType>5)
+        if (keyType<1 || keyType>6)
             cout << ConstString::nhapsai;
-        else
+        else {
+            if (keyType == 6) {
+                return true;
+            }
             check = true;
+        }
     } while (!check);
-    chonThuatToan(keyType);
-//    return 0;
+    while (!chonThuatToan(keyType)) {};
+    return false;
 }
 
-void TimKiem::chonThuatToan(int keyType)
+bool TimKiem::chonThuatToan(int keyType)
 {
+    system("CLS");
     int algoType;
     bool check = false;
     cout << "\nChon thuat toan sap xep: " << endl
-         << "1. Tim kiem tuan tu (sequence search)" << endl
-         << "2. Tim kiem nhi phan (binary search)"  << endl
+         << "       1. Tim kiem tuan tu (sequence search)" << endl
+         << "       2. Tim kiem nhi phan (binary search)"  << endl
+         << "       3. Quay lai"                           << endl
          << "Chon: ";
     do {
         cin >> algoType;
         switch (algoType) {
             case 1: {
+                found.clear();
                 sequenceSearch(DanhSach, keyType);
                 check = true;
                 break;
             }
             case 2: {
+                found.clear();
                 InDanhSach sort(DanhSach);
                 sort.askSearch(DanhSach, keyType);
                 binarySearch(DanhSach, keyType, 0, DanhSach.size()-1, false);
                 check = true;
+                break;
+            }
+            case 3: {
+                return true;
                 break;
             }
             default:
@@ -66,7 +80,10 @@ void TimKiem::chonThuatToan(int keyType)
                 break;
         }
     } while (!check);
+    system("CLS");
     inKetQua();
+    system("PAUSE");
+    return false;
 }
 
 void TimKiem::nhapTuKhoa(int keyType)

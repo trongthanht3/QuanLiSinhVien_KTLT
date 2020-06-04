@@ -14,11 +14,11 @@ class InDanhSach {
     private:
         vector<SinhVien> DanhSach;
         string titleM2 = " __________________________________________________________________________________\n"
-                     "|            |                  |                        |              |          |\n"
-                     "|   Ma Lop   |   Ma sinh vien   |       Ho va ten        |   Ngay sinh  |   DTBTL  |\n"
-                     "| ___________|__________________|________________________|______________|__________|",
-            midLineM2 = "|            |                  |                        |              |          |",
-            endLineM2 = "|____________|__________________|________________________|______________|__________|";
+                         "|            |                  |                        |              |          |\n"
+                         "|   Ma Lop   |   Ma sinh vien   |       Ho va ten        |   Ngay sinh  |   DTBTL  |\n"
+                         "| ___________|__________________|________________________|______________|__________|",
+            midLineM2 =  "|            |                  |                        |              |          |",
+            endLineM2 =  "|____________|__________________|________________________|______________|__________|";
     vector<string> printM2 = {"Quay lai.", "\n", titleM2};
     public:
         static int n;
@@ -26,9 +26,9 @@ class InDanhSach {
         InDanhSach(vector<SinhVien> &_DanhSach);
         void importData();
         void printData();
-        string centerString(string s, int space);
-        string centerStringint(int input, int space);
-        string centerStringfloat(float input, int space);
+        static string centerString(string s, int space);
+        static string centerStringint(int input, int space);
+        static string centerStringfloat(float input, int space);
         void printListStudent();
         void ask();
         void askSearch(vector<SinhVien> &_DanhSach, int keyType);

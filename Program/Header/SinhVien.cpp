@@ -27,34 +27,52 @@ SinhVien::SinhVien(string MaLop, int MaSV, string HoTen, Date NgaySinh, float Di
 
 void SinhVien::ThemHoSo()
 {
+    int n;
 	cout << "\nNhap ho so sinh vien!" << endl;
-	cin.ignore();
-	cout << "Ma lop: ";
-	getline(cin, MaLop);
-	cout << "Ma sinh vien: ";
-	cin >> MaSV;
-//	cout << MaSV;
-	if (MaSV <= 0) {
-		do {
-			cin.clear();		//clears the error flag on cin (so that future I/O operations will work correctly)
-			cin.ignore();		//skips to the next newline (to ignore anything else on the same line as the non-number)
-			cout << "Khong hop le! Nhap lai: ";
-			cin >> MaSV;
-		} while (MaSV <= 0);
-	}
-	cin.ignore();
-	cout << "Ho va ten: ";
-	getline(cin, HoTen);
-	chuanHoaString();
-	cout << "Ngay sinh (ngay/thang/nam): ";
-	NgaySinh.userInput();
-	cin.ignore();
-	cout << "Diem trung binh tich luy: ";
-	cin >> DiemTB;
-	while (DiemTB<0 || DiemTB >10) {
-	    cout << ConstString::nhapsai;
-	    cin >> DiemTB;
-	}
+	cout << "So sinh vien can nhap (0. Quay lai): ";
+	do {
+	    try {
+            cin >> n;
+        } catch (exception X) {
+	        cout << ConstString::nhapsai;
+	    }
+	    if (n==0)
+	        return;
+
+	} while (n <= 0);
+	for (int i=0; i<n; i++) {
+	    cout << "Sinh vien " << i << ": \n";
+        cin.ignore();
+        cout << "Ma lop: ";
+        getline(cin, MaLop);
+        cout << "Ma sinh vien: ";
+        cin >> MaSV;
+        //	cout << MaSV;
+        if (MaSV <= 0) {
+            do {
+                cin.clear();        //clears the error flag on cin (so that future I/O operations will work correctly)
+                cin.ignore();        //skips to the next newline (to ignore anything else on the same line as the non-number)
+                cout << "Khong hop le! Nhap lai: ";
+                cin >> MaSV;
+            } while (MaSV <= 0);
+        }
+        cin.ignore();
+        cout << "Ho va ten: ";
+        getline(cin, HoTen);
+        chuanHoaString();
+        cout << "Ngay sinh (ngay/thang/nam): ";
+        NgaySinh.userInput();
+        cin.ignore();
+        cout << "Diem trung binh tich luy: ";
+        cin >> DiemTB;
+        while (DiemTB < 0 || DiemTB > 10) {
+            cout << ConstString::nhapsai;
+            cin >> DiemTB;
+        }
+        exportData();
+    }
+	_sleep(1000);
+	system("CLS");
 }
 
 void SinhVien::setMaLop(string MaLop)

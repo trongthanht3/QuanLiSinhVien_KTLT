@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include "InDanhSach.h"
+#include "Tools.h"
 
 class TimKiem {
     private:
@@ -17,8 +18,8 @@ class TimKiem {
     public:
         TimKiem();
         TimKiem(vector<SinhVien> _DanhSach);
-        void ChonKhoa();
-        void chonThuatToan(int keyType);
+        bool ChonKhoa();
+        bool chonThuatToan(int keyType);
         void nhapTuKhoa(int keyType);
         void inKetQua();
         bool sequenceSearch(vector<SinhVien> _DanhSach, int keyType);

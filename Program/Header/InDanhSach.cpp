@@ -53,7 +53,7 @@ void InDanhSach::printListStudent() {
     }
     cout << endLineM2;
     printM2.push_back(endLineM2);
-//    pressEnterInM2(keyMoveSelectPrintListStudents(index, printM2));
+    system("PAUSE");
 }
 
 string InDanhSach::centerString(string s, int space) {
@@ -84,6 +84,8 @@ string InDanhSach::centerStringint(int input, int space) {
     int length = 0;
     int s = input;
 //    cout << input;
+    if (input == 0)
+        length = 1;
     while (s > 0) {
         s = s / 10;
         length++;
@@ -101,11 +103,15 @@ string InDanhSach::centerStringint(int input, int space) {
     }
     string1 += temp;
     if (length%2 == 0) {
+        if (space%2 != 0)
+            size += 1;
         for (int i = 0; i < size; i++) {
             string1 += " ";
         }
     }
     else {
+        if (space%2 != 0)
+            size -= 1;
         for (int i = 0; i < size+1; i++) {
             string1 += " ";
         }
@@ -128,11 +134,17 @@ string InDanhSach::centerStringfloat(float input, int space) {
     }
     string1 += temp;
     if (length%2 == 0) {
+        if (space%2 != 0) {
+            size += 1;
+        }
         for (int i = 0; i < size; i++) {
             string1 += " ";
         }
     }
     else {
+        if (space%2 != 0) {
+            size -= 1;
+        }
         for (int i = 0; i < size+1; i++) {
             string1 += " ";
         }

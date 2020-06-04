@@ -20,8 +20,8 @@ class SapXep {
     public:
         SapXep();
         SapXep(vector<SinhVien> &_DanhSach);
-        void ChonKhoa();
-        void chonThuatToan(int keyType);
+        bool ChonKhoa();
+        bool chonThuatToan(int keyType);
         void exportSortedData();
         void selectionSort(vector<SinhVien> &_DanhSach, int keyType);
         void insertionSort(vector<SinhVien> &_DanhSach, int keyType);

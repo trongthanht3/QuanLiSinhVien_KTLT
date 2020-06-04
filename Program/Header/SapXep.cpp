@@ -16,36 +16,43 @@ SapXep::SapXep(vector<SinhVien> &_DanhSach)
     DanhSach = _DanhSach;
 }
 
-void SapXep::ChonKhoa()
+bool SapXep::ChonKhoa()
 {
+    system("CLS");
     int keyType;
     bool check = false;
     cout << "\nChon loai khoa: " << endl
-         << "1. Ma sinh vien"	 << endl
-         << "2. Ho ten"			 << endl
-         << "3. Ngay sinh"		 << endl
-         << "4. Diem trung binh" << endl;
+         << "       1. Ma sinh vien"	 << endl
+         << "       2. Ho ten"			 << endl
+         << "       3. Ngay sinh"		 << endl
+         << "       4. Diem trung binh"  << endl
+         << "       5. Quay lai"         << endl;
     cout << "Chon: ";
     do {
         cin >> keyType;
-        if (keyType<1 || keyType>4)
+        if (keyType<1 || keyType>5)
             cout << ConstString::nhapsai;
-        else
+        else {
+            if (keyType == 5)
+                return true;
             check = true;
+        }
     } while (!check);
-    chonThuatToan(keyType);
-//    return 0;
+    while (!chonThuatToan(keyType)) {};
+    return false;
 }
 
-void SapXep::chonThuatToan(int keyType)
+bool SapXep::chonThuatToan(int keyType)
 {
+    system("CLS");
     int algoType;
     bool check = false;
     cout << "\nChon thuat toan sap xep: " << endl
-         << "1. Selection sort" 		  << endl
-         << "2. Insert sort"			  << endl
-         << "3. Quick sort"				  << endl
-         << "4. Merge sort"				  << endl
+         << "       1. Selection sort" 		  << endl
+         << "       2. Insert sort"			  << endl
+         << "       3. Quick sort"				  << endl
+         << "       4. Merge sort"				  << endl
+         << "       5. Quay lai "                 << endl
          << "Chon: ";
     do {
         cin >> algoType;
@@ -74,11 +81,17 @@ void SapXep::chonThuatToan(int keyType)
                 check = true;
                 break;
             }
+            case 5: {
+                return true;
+            }
             default:
                 cout << ConstString::nhapsai;
                 break;
         }
+        system("PAUSE");
     } while (!check);
+
+    return false;
 }
 
 void SapXep::exportSortedData()
