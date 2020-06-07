@@ -65,5 +65,20 @@ Kết quả làm được từ ngày 6/3/2020 đến ngày C
 *16/5/2020*  
 -Kiểm tra lỗi, hoàn thiện, nộp bài  
   
+*20/5/2020*  
+-Format bảng in ra  
+  
+*27/5/2020*  
+-Viết hàm phân tích dữ liệu  
+  
+*30/5/2020*  
+-Thêm class LopHocPhan để tiện quản lí các thông số của Lớp (số SinhVien giỏi, khá,...)  
+  
+*2/6/2020*  
+-Soát lỗi, tổng hợp lại các phần  
+  
+*6/7/2020*  
+-Soát lỗi lần cuối, viết báo cáo, nộp bài  
+  
   
 --Le Quy Don Technical University--
