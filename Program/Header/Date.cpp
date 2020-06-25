@@ -66,6 +66,12 @@ void Date::userInput()
 	int day, month, year;
 	do {
         cin >> day >> month >> year;
+        do {
+            cin.clear();        //clears the error flag on cin (so that future I/O operations will work correctly)
+            cin.ignore();        //skips to the next newline (to ignore anything else on the same line as the non-number)
+            cout << "Khong hop le! Nhap lai: ";
+            cin >> day >> month >> year;
+        } while (day<=0 || month<=0 || year<=0);
         if (!setDate(month, day, year))
             cout << ConstString::nhapsai;
 	} while (!setDate(month, day, year));
@@ -97,13 +103,6 @@ const string& Date::asString() const
 	iostream << day << "/" << month << "/" << year;
 	iostream >> str;
 	return str;
-}
-
-void Date::importData(fstream &dataInput, Date &temp)
-{
-    dataInput >> day;
-    dataInput >> month;
-    dataInput >> year;
 }
 
 

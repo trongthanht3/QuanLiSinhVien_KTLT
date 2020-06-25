@@ -111,33 +111,34 @@ void SapXep::selectionSort(vector<SinhVien> &_DanhSach, int keyType)
             switch (keyType) {
                 case 1: {
                     if (_DanhSach[j].getMaSV() < _DanhSach[min].getMaSV())
-                        swap(_DanhSach[i], _DanhSach[j]);
+                        min = j;
                     break;
                 }
                 case 2: {
                     if (_DanhSach[j].getLastHoTen() < _DanhSach[min].getLastHoTen())
-                        swap(_DanhSach[i], _DanhSach[j]);
+                        min = j;
                     break;
                 }
                 case 3: {
                     if (_DanhSach[j].getNgaySinh().isLess(_DanhSach[min].getNgaySinh()))
-                        swap(_DanhSach[i], _DanhSach[j]);
+                        min = j;
                     break;
                 }
                 case 4: {
                     if (_DanhSach[j].getDiemTB() < _DanhSach[min].getDiemTB())
-                        swap(_DanhSach[i], _DanhSach[j]);
+                        min = j;
                     break;
                 }
                 case 5: {
                     if (_DanhSach[j].getMaLop() < _DanhSach[min].getMaLop())
-                        swap(_DanhSach[i], _DanhSach[j]);
+                        min = j;
                     break;
                 }
                 default:
                     break;
             }
         }
+        swap(_DanhSach[i], _DanhSach[min]);
     }
     exportSortedData();
 }
@@ -193,57 +194,102 @@ void SapXep::insertionSort(vector<SinhVien> &_DanhSach, int keyType)
 
 int SapXep::quickSortPartition(vector<SinhVien> &_DanhSach, int left, int right, int keyType)
 {
-    int pivot = right;      //pick pivot as most right element
-    int i = left - 1;       //run index to find where to put pivot
+    int pivot = right;                  //chon diem chot
+    int low = left;
+    int high = right-1;                 //diem chot = right nen ta chi xet tu left den right-1
 
-    for (int j=left; j<right; j++) {         //not run to [right]
-        switch (keyType) {
-            case 1: {
-                if (_DanhSach[j].getMaSV() < _DanhSach[pivot].getMaSV()) {
-                    i++;
-                    swap(_DanhSach[j], _DanhSach[i]);
-                }
-                break;
+    switch (keyType) {
+        case 1: {
+            while (true) {
+                while (low <= high && _DanhSach[low].getMaSV() <= _DanhSach[pivot].getMaSV())       //chay tu trai sang phai de tim x>pivot
+                    low++;
+                while (high >= low && _DanhSach[high].getMaSV() >= _DanhSach[pivot].getMaSV())      //chay tu phai sang trai de tim y<pivot
+                    high--;
+                if (low >= high)                //neu low>=high, tuc la 2 con tro da vuot qua nhau, break vong while
+                    break;
+                swap(_DanhSach[low], _DanhSach[high]);          //khi da tim dc x, y nhu tren, thuc hien swap
+                low++;                  //low da duoc swap nen +1 de xet tu phan tu tiep theo
+                high--;                 //tuong tu, high da duoc xet va swap nen ta giam de tim phan tu tiep
             }
-            case 2: {
-                if (_DanhSach[j].getLastHoTen() < _DanhSach[pivot].getLastHoTen()) {
-                    i++;
-                    swap(_DanhSach[j], _DanhSach[i]);
-                }
-                break;
-            }
-            case 3: {
-                if (_DanhSach[j].getNgaySinh().isLess(_DanhSach[pivot].getNgaySinh())) {
-                    i++;
-                    swap(_DanhSach[j], _DanhSach[i]);
-                }
-                break;
-            }
-            case 4: {
-                if (_DanhSach[j].getDiemTB() < _DanhSach[pivot].getDiemTB()) {
-                    i++;
-                    swap(_DanhSach[j], _DanhSach[i]);
-                }
-                break;
-            }
-            case 5: {
-                if (_DanhSach[j].getMaLop() < _DanhSach[pivot].getMaLop()) {
-                    i++;
-                    swap(_DanhSach[j], _DanhSach[i]);
-                }
-                break;
-            }
-            default:
-                break;
+            swap(_DanhSach[low], _DanhSach[pivot]);             //sau khi 2 con tro vuot qua nhau, low chinh la diem de chen pivot
+            return low;                 //return vi tri low chinh la pivot de chia mang thanh 2 phan
+            break;
         }
+        case 2: {
+            while (true) {
+                while (low <= high && _DanhSach[low].getLastHoTen() <= _DanhSach[pivot].getLastHoTen())
+                    low++;
+                while (high >= low && _DanhSach[high].getLastHoTen() >= _DanhSach[pivot].getLastHoTen())
+                    high--;
+                if (low >= high)
+                    break;
+                swap(_DanhSach[low], _DanhSach[high]);
+                low++;
+                high--;
+            }
+            swap(_DanhSach[low], _DanhSach[pivot]);
+            return low;
+            break;
+        }
+        case 3: {
+            while (true) {
+                while (low <= high && _DanhSach[low].getNgaySinh().isLess(_DanhSach[pivot].getNgaySinh()))
+                    low++;
+                while (low <= high && _DanhSach[pivot].getNgaySinh().isLess(_DanhSach[high].getNgaySinh()))
+                    high--;
+                if (low >= high)
+                    break;
+                swap(_DanhSach[low], _DanhSach[high]);
+                low++;
+                high--;
+            }
+            swap(_DanhSach[low], _DanhSach[pivot]);
+            return low;
+            break;
+        }
+        case 4: {
+            while (true) {
+                while (low <= high && _DanhSach[low].getDiemTB() <= _DanhSach[pivot].getDiemTB())
+                    low++;
+                while (low <= high && _DanhSach[high].getDiemTB() >= _DanhSach[pivot].getDiemTB())
+                    high--;
+                if (low >= high)
+                    break;
+                swap(_DanhSach[low], _DanhSach[high]);
+                low++;
+                high--;
+            }
+            swap(_DanhSach[low], _DanhSach[pivot]);
+            return low;
+            break;
+        }
+        case 5: {
+            while (true) {
+                while (low <= high && _DanhSach[low].getMaLop() <= _DanhSach[pivot].getMaLop())
+                    low++;
+                while (low <= high && _DanhSach[high].getMaLop() >= _DanhSach[pivot].getMaLop())
+                    high--;
+                if (low >= high)
+                    break;
+                swap(_DanhSach[low], _DanhSach[high]);
+                low++;
+                high--;
+            }
+            swap(_DanhSach[low], _DanhSach[pivot]);
+            return low;
+            break;
+        }
+        default:
+            break;
     }
-    swap(_DanhSach[pivot], _DanhSach[i+1]);
-    return i+1;             //return pivot point to divine array
+    return -1;
 }
 void SapXep::quickSort(vector<SinhVien> &_DanhSach, int left, int right, int keyType)
 {
     if (left < right) {         //exit condition
         int pivot = quickSortPartition(_DanhSach, left, right, keyType);     //get pivot after partition array
+        if (pivot == - 1)
+            cout << "error, please report to dev" << endl;
         //'cuz pivot point is sorted, so we dont run to it
         quickSort(_DanhSach, left, pivot-1, keyType);        //left array before pivot
         quickSort(_DanhSach, pivot+1, right, keyType);        //right array after pivot

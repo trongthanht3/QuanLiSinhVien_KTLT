@@ -7,6 +7,7 @@
 #include "Date.h"
 #include "ConstString.h"
 #include "iomanip"
+#include <limits>
 #include <exception>
 
 using namespace std;
@@ -48,7 +49,6 @@ class SinhVien
 		string chuanHoaString();
 		void exportData();
 		void importData(fstream& dataInput, SinhVien &temp);
-		friend void alo();
 	protected:
 };
 

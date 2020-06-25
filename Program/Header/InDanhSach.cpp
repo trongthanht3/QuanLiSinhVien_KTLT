@@ -17,7 +17,7 @@ void InDanhSach::importData()
 {
     SinhVien temp;
     fstream dataInput;
-    dataInput.open("data.txt", ios::in | ios::out);
+    dataInput.open("data.txt", ios::in);
     if (dataInput.peek() == EOF) {
         cout << "Ho so rong!\n";
         return;
@@ -30,6 +30,7 @@ void InDanhSach::importData()
 
 void InDanhSach::printData()
 {
+    // in ra chuoi string thong tin, dung trong 1 so truong hop debug
     int n = DanhSach.size();
     for (int i=0; i<n; i++) {
         DanhSach[i].toScreen_SinhVien();

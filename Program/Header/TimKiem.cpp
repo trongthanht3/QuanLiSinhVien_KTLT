@@ -187,8 +187,8 @@ bool TimKiem::sequenceSearch(vector<SinhVien> _DanhSach, int keyType)
 }
 
 bool TimKiem::binarySearch(vector<SinhVien> _DanhSach, int keyType, int l, int r, bool checkRun) {
-    // co the thuc hien tim kiem nhieu phan tu bang binarySearch
-    // nhung se tang thoi gian chay > Olog(n)
+    // co the thuc hien tim kiem nhieu phan tu bang binarySearch nhung chua biet lam
+    // van de: se tang thoi gian chay > Olog(n)
     // dan den kem hieu qua khi su dung thuat toan nay
 
     if (!checkRun)

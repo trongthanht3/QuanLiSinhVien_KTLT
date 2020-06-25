@@ -21,7 +21,6 @@ class InDanhSach {
             endLineM2 =  "|____________|__________________|________________________|______________|__________|";
     vector<string> printM2 = {"Quay lai.", "\n", titleM2};
     public:
-        static int n;
         InDanhSach();
         InDanhSach(vector<SinhVien> &_DanhSach);
         void importData();

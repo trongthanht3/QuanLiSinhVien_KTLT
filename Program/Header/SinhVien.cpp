@@ -30,31 +30,32 @@ void SinhVien::ThemHoSo()
     int n;
 	cout << "\nNhap ho so sinh vien!" << endl;
 	cout << "So sinh vien can nhap (0. Quay lai): ";
-	do {
-	    try {
+    if (n <= 0) {
+        do {
+            cin.clear();        //clears the error flag on cin (so that future I/O operations will work correctly)
+            cin.ignore(numeric_limits<streamsize>::max(),'\n');        //skips to the next newline (to ignore anything else on the same line as the non-number)
             cin >> n;
-        } catch (exception X) {
-	        cout << ConstString::nhapsai;
-	    }
-	    if (n==0)
-	        return;
-
-	} while (n <= 0);
+            if (n == 0) {
+                return;
+            }
+        } while (n <= 0);
+    }
+    cin.ignore(numeric_limits<streamsize>::max(),'\n');
 	for (int i=0; i<n; i++) {
-	    cout << "Sinh vien " << i << ": \n";
+	    cout << "Sinh vien " << i+1 << ": \n";
         cin.ignore();
         cout << "Ma lop: ";
         getline(cin, MaLop);
         cout << "Ma sinh vien: ";
         cin >> MaSV;
         //	cout << MaSV;
-        if (MaSV <= 0) {
+        if (cin.fail()) {
+            cout << "Khong hop le! Nhap lai toi khi dung: ";
             do {
                 cin.clear();        //clears the error flag on cin (so that future I/O operations will work correctly)
                 cin.ignore();        //skips to the next newline (to ignore anything else on the same line as the non-number)
-                cout << "Khong hop le! Nhap lai: ";
                 cin >> MaSV;
-            } while (MaSV <= 0);
+            } while (cin.fail());
         }
         cin.ignore();
         cout << "Ho va ten: ";
@@ -65,13 +66,21 @@ void SinhVien::ThemHoSo()
         cin.ignore();
         cout << "Diem trung binh tich luy: ";
         cin >> DiemTB;
-        while (DiemTB < 0 || DiemTB > 10) {
-            cout << ConstString::nhapsai;
-            cin >> DiemTB;
+        if (DiemTB <= 0 || DiemTB > 10) {
+            cout << "Khong hop le! Nhap lai toi khi dung: ";
+            do {
+                cin.clear();        //clears the error flag on cin (so that future I/O operations will work correctly)
+                cin.ignore();        //skips to the next newline (to ignore anything else on the same line as the non-number)
+                cin >> DiemTB;
+            } while (DiemTB <= 0 || DiemTB > 10);
         }
+//        while (DiemTB < 0 || DiemTB > 10) {
+//            cout << ConstString::nhapsai;
+//            cin >> DiemTB;
+//        }
         exportData();
     }
-	_sleep(1000);
+//	_sleep(1000);
 	system("CLS");
 }
 
@@ -160,8 +169,30 @@ void SinhVien::toScreen_SinhVien()
 string SinhVien::chuanHoaString()
 {
     string ten = this->HoTen;
-    int i=1, n=ten.length();
-    ten[0] = toupper(ten[0]);
+    int n=ten.length();
+    // xoa space thua
+        //xoa space o dau string
+    while (ten[0] == ' ') {
+        for (int j=0; j<n-1; j++) {
+            ten[j] = ten[j+1];
+        }
+    }
+        //xoa space o cac khoang giua
+    int j=0;
+    while (j<n) {
+        if ((ten[j]==' ') && (ten[j+1]==' ')) {
+            ten.erase(ten.begin()+j);
+            ten.erase(ten.end()-1);
+        }
+        else {
+            j++;
+        }
+    }
+
+    // format lai ten thanh chu hoa
+    int i=0;
+    if (ten[0] != ' ')
+        ten[0] = toupper(ten[0]);
     do {
         if (ten[i] == ' ')
             ten[i+1] = toupper(ten[i+1]);
